@@ -1,0 +1,179 @@
+/* GLOBAL */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.reset-list {
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+  font-family: 'Century gothic', Arial, sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  background-color: #b9b9b9;
+}
+
+.body {
+  min-height: 100%;
+}
+
+.inprogress {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgb(47, 47, 47);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.inprogress p {
+  padding: 20px;
+}
+
+.bigger-text {
+  font-size: 1.5em;
+}
+
+.cover-img {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 50vw;
+}
+
+
+.social-icon {
+  fill: black;
+}
+
+.navigation {
+  background-color: aquamarine;
+}
+
+.main-header {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.navigation-link {
+  text-transform: uppercase;
+  color: #2e2e2e;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
+}
+
+.navigation-list__item {
+  min-width: 100px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right:  40px;
+/*   
+  @media (min-width: 768px) {
+    padding-left: 60px;
+    padding-right: 60px;
+  } */
+}
+
+.main-index {
+  height: 100%;
+  flex-grow: 1;
+  position: relative;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  min-height: 600px;
+  padding: 20px;
+  background-color: gainsboro;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__image:hover {
+  position: absolute;
+  width: 450px;
+}
+
+
+
+
+.up-button {
+  position: fixed;
+  z-index: 1;
+  padding: 0;
+  bottom: 75px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 5px solid;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+}
+
+.shown {
+  display: inline-block;
+}
+
+.sometext p {
+  padding: 40px 0 40px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
