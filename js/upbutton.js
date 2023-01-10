@@ -5,10 +5,9 @@ let upButton = document.querySelector('.up-button'); //нашли кнопку
       upButton.classList.add('shown');   // добавь кнопке класс показан
     } else {
       upButton.classList.remove('shown'); // иначе не показывай кнопку
-    }
-  
+    }  
   };
   
-  upButton.onclick = function () {   // при клике вызывай функцию и скроль наверх
+  upButton.onclick = function () {   // при клике вызывает функцию и скроль наверх
     window.scrollTo(0, 0);
   };
