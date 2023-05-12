@@ -369,13 +369,18 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.photography-blog__article {
+.photography-blog__head {
   text-align: center;
-  padding: 40px;
+  padding: 20px 40px 0 40px;
   width: 100%;
+  font-size: 16px;
+}
+
+.photography-blog__head p {
+ margin-bottom: 20px;
 }
 
 .contacts__button {
@@ -395,6 +400,30 @@ body {
 .contacts__button:hover {
   transition: 350ms;
   opacity: 0.5;
+}
+
+.short-blogpost__header {
+  background-color: rgb(243, 243, 243);
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.short-blogpost {
+  background-color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.short-blogpost__content {
+  padding: 10px 20px 10px 20px;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.short-blogpost__header::marker {
+  color: #000000;
 }
 
 /* contacts-page */
