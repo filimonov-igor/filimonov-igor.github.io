@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://filimonovphoto.ru/sitemap.xml
