@@ -208,6 +208,11 @@ body {
   border-radius: 4px;
 }
 
+.index-card__image:hover {
+  transition: 350ms;
+  opacity: 0.5;
+}
+
 .index-card__title {
   padding: 0 20px 20px;
   text-transform: uppercase;
