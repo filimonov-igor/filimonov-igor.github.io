@@ -597,7 +597,8 @@ body {
   border-radius: 4px;
 }
 
-.contacts__button:hover {
+.contacts__button:hover,
+.short-blogpost__header:hover {
   transition: 350ms;
   opacity: 0.5;
 }
