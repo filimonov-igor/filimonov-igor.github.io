@@ -423,7 +423,6 @@ body {
   .gallery__image {
     height: 200px;
     width: 200px;
-    border: 5px solid #fff;
   }
 
   .gallery__container {
@@ -498,6 +497,31 @@ body {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0) 4%);
 }
 
+
+.short-blogpost__header {
+  background-color: rgb(243, 243, 243);
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.short-blogpost {
+  background-color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.short-blogpost__content {
+  padding: 10px 20px 10px 20px;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.short-blogpost__header::marker {
+  color: #000000;
+}
+
 .contact__list {
   display: flex;
   max-width: 1500px;
@@ -559,8 +583,6 @@ body {
   padding: 20px
 }
 
-/* landscape-page */
-
 /* blog-page*/
 
 .photography-blog {
@@ -601,30 +623,6 @@ body {
 .short-blogpost__header:hover {
   transition: 350ms;
   opacity: 0.5;
-}
-
-.short-blogpost__header {
-  background-color: rgb(243, 243, 243);
-  padding: 10px 15px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.short-blogpost {
-  background-color: white;
-  padding: 20px;
-  cursor: pointer;
-}
-
-.short-blogpost__content {
-  padding: 10px 20px 10px 20px;
-  margin: 0;
-  line-height: 1.6;
-  font-size: 16px;
-}
-
-.short-blogpost__header::marker {
-  color: #000000;
 }
 
 /* contacts-page */
